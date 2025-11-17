@@ -6,6 +6,8 @@ int main()
     char text[100];
 
     cin >> x >> text;
-    cout << text << " " << x << endl;
+    int c = 'a';
+    int A = 'A';
+    cout << text << " " << x << " " << c << " " << (int)A << endl;
     return 0;
 }
