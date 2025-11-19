@@ -1,0 +1,1 @@
+{"name":"Local: EOF","url":"d:\\Experiment\\DSA_WITH_CPP\\File_1\\EOF.cpp","tests":[{"id":1763455839382,"input":"1\n2\n3\n4\n5\n","output":"1\n2\n3\n4\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Experiment\\DSA_WITH_CPP\\File_1\\EOF.cpp","group":"local","local":true}
