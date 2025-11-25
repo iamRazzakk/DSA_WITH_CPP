@@ -1,7 +1,7 @@
 // =======================================
 // Problem: Problem Name / Link
 // Author : abdur_Razzak_rakib
-// Date   : 2025-11-24
+// Date   : 2025-11-25
 // =======================================
 
 #include <bits/stdc++.h>
@@ -27,19 +27,11 @@ public:
     }
 };
 
-Student *fun()
-{
-    Student karim(52, 5, 4.8);
-    Student *p = &karim;
-    return p;
-}
-
 int main()
 {
-    Student *obj = fun();
-    
-    cout << obj->roll << " " << obj->cls << " " << obj->gpa << " " << endl;
+    Student rahim(52, 2, 4.8);
+    Student *karim = new Student(52, 2, 4.8);
+
+    cout << karim->roll << " " << karim->cls << " " << karim->gpa << " " << endl;
     return 0;
 }
-
-// after complete the fun function than it will be return from stack memory. that's why we can't find the value. it's show the garbage value.
