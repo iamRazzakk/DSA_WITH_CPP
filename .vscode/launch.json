@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/DSA_WITH_CPP/File_2",
-      "program": "d:/DSA_WITH_CPP/File_2/build/Debug/outDebug",
+      "cwd": "d:/experiment/DSA_WITH_CPP",
+      "program": "d:/experiment/DSA_WITH_CPP/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
