@@ -15,6 +15,5 @@ int main()
         /* code */
         cout << *iterators << endl;
     }
-
     return 0;
 }
