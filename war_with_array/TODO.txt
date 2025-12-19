@@ -1,0 +1,156 @@
+🔹 ARRAY MANIPULATION METHODS / WHAT YOU CAN DO
+1️⃣ Access / Traversal
+
+Access element by index
+
+Loop through array (forward / backward)
+
+Traverse every 2nd / 3rd element
+
+Reverse traverse (last → first)
+
+Skip elements (step traversal)
+
+2️⃣ Insertion
+
+Add at end
+
+Add at beginning
+
+Add after a specific index
+
+Insert multiple elements at any index
+
+Insert conditionally (if value > X, add)
+
+3️⃣ Deletion
+
+Remove last element
+
+Remove first element
+
+Remove at specific index
+
+Remove multiple elements (range)
+
+Remove based on condition (e.g., remove all odd numbers)
+
+4️⃣ Update / Modify
+
+Change value at a specific index
+
+Increase / decrease by certain amount
+
+Apply a function to all elements (e.g., double all values)
+
+Replace values conditionally
+
+5️⃣ Search / Find
+
+Find index of a value
+
+Find first / last occurrence
+
+Check existence
+
+Linear search
+
+Binary search (for sorted array)
+
+6️⃣ Sorting
+
+Ascending / Descending
+
+Custom sort (e.g., absolute value, by property)
+
+Partial sort (first k elements)
+
+Stable sort (maintain relative order)
+
+7️⃣ Reversing
+
+Reverse entire array
+
+Reverse subarray (between two indices)
+
+Mirror array
+
+8️⃣ Slicing / Subarray
+
+Get subarray
+
+Remove subarray
+
+Extract every k-th element
+
+9️⃣ Merging / Concatenation
+
+Merge two or more arrays
+
+Interleave arrays
+
+Append array at a specific index
+
+🔟 Rotation / Shift
+
+Left rotation
+
+Right rotation
+
+Circular shift
+
+Shift by k elements
+
+Rotate subarray
+
+1️⃣1️⃣ Counting / Frequency
+
+Count occurrences of a value
+
+Count elements satisfying a condition
+
+Frequency map / histogram
+
+Prefix / suffix counts
+
+1️⃣2️⃣ Transform / Map
+
+Multiply / divide / add / subtract all elements
+
+Apply any function to all elements
+
+Replace elements based on a condition
+
+1️⃣3️⃣ Unique / Remove Duplicates
+
+Remove duplicate values
+
+Keep only first occurrence
+
+Count unique elements
+
+1️⃣4️⃣ Sliding / Window Operations
+
+Sum of k elements
+
+Max / Min in sliding window
+
+Moving average
+
+Compare subarrays
+
+1️⃣5️⃣ Advanced / Patterns
+
+Swap pairs of elements
+
+Reverse between indices
+
+Add values after every k elements
+
+Rotate / shuffle subarray
+
+Prefix sum / suffix sum / cumulative operations
+
+Stack / Queue / Deque emulation using array
+
+Subarray problems (max sum, product, etc.)
