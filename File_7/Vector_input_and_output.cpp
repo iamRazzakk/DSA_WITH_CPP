@@ -10,7 +10,6 @@ using namespace std;
 int main()
 {
     // with size
-
     int n;
     cin >> n;
     //! prev how i take an array input
@@ -28,5 +27,23 @@ int main()
         cout << v[i] << " ";
     }
 
+    return 0;
+
+    // with out size
+    int m;
+    cin >> m;
+    vector<int> v;
+    for (int i = 0; i < m; i++)
+    {
+        /* code */
+        int x;
+        cin >> x;
+        v.push_back(x);
+    }
+    for (int i = 0; i < m; i++)
+    {
+        /* code */
+        cout << v[i] << " ";
+    }
     return 0;
 }
