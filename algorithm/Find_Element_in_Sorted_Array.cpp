@@ -21,7 +21,7 @@ int main()
     int l = 0;
     int r = n - 1;
     int flag = 0;
-    while (l < r)
+    while (l <= r)
     {
         /* code */
         int mid = l + (r - 1) / n;
