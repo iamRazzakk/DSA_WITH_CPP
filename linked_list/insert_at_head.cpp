@@ -18,23 +18,34 @@ public:
         this->next = NULL;
     }
 };
-
-void insert_at_head(Node *head, int val)
+void insurt_at_head(Node *&head, int val)
 {
-    Node *newNode = new Node(val);
-    newNode->next = head;
-    head = newNode;
-    cout << "First One :" << newNode->val << endl;
+    Node *newnode = new Node(val);
+    newnode->next = head;
+    head = newnode;
+}
+
+void print_linked_list(Node *head)
+{
+    Node *temp = head;
+    while (temp != NULL)
+    {
+        std::cout << temp->val << std::endl;
+        temp = temp->next;
+    }
 }
 
 int main()
 {
+    // your code goes here
+
     Node *head = new Node(10);
     Node *a = new Node(20);
     Node *b = new Node(30);
+
     head->next = a;
     a->next = b;
 
-    insert_at_head(head, 100);
-    return 0;
+    insurt_at_head(head, 100);
+    print_linked_list(head);
 }
