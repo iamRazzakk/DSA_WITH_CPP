@@ -1,5 +1,5 @@
 // =======================================
-// Problem: insert at tail
+// Problem: insert at any position
 // Author : abdur_Razzak_rakib
 // Date   : 2026-01-07
 // =======================================
@@ -18,19 +18,16 @@ public:
         this->next = NULL;
     }
 };
-void insurt_at_tail(Node *&head, int val)
+void insurt_at_any_pos(Node *&head, int idx, int val)
 {
     Node *newnode = new Node(val);
-    if (head == NULL)
-    {
-        head = newnode;
-        return;
-    }
     Node *temp = head;
-    while (temp->next != NULL)
+    for (int i = 0; i < idx; i++)
     {
+        /* code */
         temp = temp->next;
     }
+    newnode->next = temp->next;
     temp->next = newnode;
 }
 
@@ -46,6 +43,7 @@ void print_linked_list(Node *head)
 
 int main()
 {
+    // your code goes here
 
     Node *head = new Node(10);
     Node *a = new Node(20);
@@ -54,6 +52,6 @@ int main()
     head->next = a;
     a->next = b;
 
-    insurt_at_tail(head, 100);
+    insurt_at_any_pos(head, 1, 100);
     print_linked_list(head);
 }
