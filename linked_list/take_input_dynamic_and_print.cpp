@@ -1,3 +1,10 @@
+
+// =======================================
+// Problem: take input dynamicaly and print
+// Author : abdur_Razzak_rakib
+// Date   : 2026-01-17
+// =======================================
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -13,7 +20,7 @@ public:
         this->next = NULL;
     }
 };
-void insurt_at_any_position(Node *&head, Node *&tail, int val)
+void insurt_at_tail(Node *&head, Node *&tail, int val)
 {
     Node *newnode = new Node(val);
     if (head == NULL)
@@ -38,16 +45,17 @@ void print_linked_list(Node *head)
 
 int main()
 {
-    // your code goes here
-
-    Node *head = new Node(10);
-    Node *a = new Node(20);
-    Node *tail = new Node(30);
-
-    head->next = a;
-    a->next = tail;
-
-    insurt_at_any_position(head, tail, 100);
-    insurt_at_any_position(head, tail, 200);
+    Node *head = NULL;
+    Node *tail = NULL;
+    int val;
+    while (true)
+    {
+        std::cin >> val;
+        if (val == -1)
+        {
+            break;
+        }
+        insurt_at_tail(head, tail, val);
+    }
     print_linked_list(head);
 }
