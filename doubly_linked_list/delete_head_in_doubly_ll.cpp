@@ -30,6 +30,7 @@ void delete_head(Node *&head, Node *&tail)
     {
         /* code */
         tail = NULL;
+        return;
     }
 
     head->prev = NULL;
