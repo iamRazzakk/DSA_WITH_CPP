@@ -6,3 +6,11 @@
 .DS_Store
 *output/
 *.txt
+*.o
+*.out
+a.out
+input
+output
+*.a
+*.so
+.vscode/
