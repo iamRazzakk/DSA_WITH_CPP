@@ -12,15 +12,20 @@ int main()
     list<int> l2;
     // l2 = l;
     l2.assign(l.begin(), l.end());
-    l2.push_front(100);
-    l2.push_back(300);
-    l2.pop_back();
-    l2.pop_front();
+    // l2.push_front(100);
+    // l2.push_back(300);
+    // l2.pop_back();
+    // l2.pop_front();
+
+    // insurt any position
+
+    l2.insert(next(l2.begin(), 1), 100);
+    
     for (int val : l2)
     {
         /* code */
         cout << val << endl;
     }
-    
+
     return 0;
 }
