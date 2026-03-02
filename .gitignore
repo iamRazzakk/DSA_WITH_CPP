@@ -13,4 +13,5 @@ input
 output
 *.a
 *.so
-.vscode/
+config.bat
+node_modules
